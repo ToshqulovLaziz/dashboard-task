@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  height: 100%;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.container {
+  max-width: 1440px;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
