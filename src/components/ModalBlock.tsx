@@ -31,6 +31,7 @@ const ModalBlock = () => {
   const { addBlock } = useBlocksStore();
   const [hasImage, setHasImage] = useState<boolean>(false);
   const [form] = Form.useForm<FormValues>();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
 
   const onFinish = async (values: FormValues) => {

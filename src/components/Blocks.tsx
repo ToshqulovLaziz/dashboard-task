@@ -22,6 +22,7 @@ type BlockData =
 const Blocks = () => {
   const { openModal } = useModalStore();
   const { blocks } = useBlocksStore() as { blocks: BlockData[] };
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
 
   // Calculate the optimal number of columns based on screen size
